@@ -7,6 +7,8 @@
 // @grant       none
 	
 // ==/UserScript==
+
+alert();
 $('#a_showhotnews_list_dia').remove();
 
 
