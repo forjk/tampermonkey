@@ -2,6 +2,7 @@
 // @name        btso
 // @namespace   https://github.com/forjk/tampermonkey
 // @include     https://btso.pw/search/*
+// @include     https://btsow.pw/search/*
 // @version     1.0
 // @require     http://apps.bdimg.com/libs/jquery/1.11.3/jquery.js
 // @grant       GM_xmlhttpRequest
