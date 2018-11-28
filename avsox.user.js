@@ -9,7 +9,7 @@
 // @grant       GM_log
 // @grant       GM_notification
 // @connect     115.com
-// @connect     btso.pw
+// @connect     btsow.pw
 // ==/UserScript==
 
 
@@ -54,7 +54,7 @@ if (key != "") {
 
 
     GM_xmlhttpRequest({
-        url: "https://btso.pw/search/" + key,
+        url: "https://btsow.pw/search/" + key,
         method  : "GET",
         //responseType : "json",
         onload: function (data) {
