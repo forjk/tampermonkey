@@ -3,6 +3,8 @@
 // @namespace   https://github.com/forjk/tampermonkey
 // @include     https://www.bthorse.com/*
 // @include     http://www.bthorse.com/*
+// @include     https://www.bthorse.net/*
+// @include     http://www.bthorse.net/*
 // @version     1.0
 // @require     http://apps.bdimg.com/libs/jquery/1.11.3/jquery.js
 // @grant       GM_xmlhttpRequest
