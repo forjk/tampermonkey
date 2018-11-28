@@ -7,7 +7,7 @@
 // @grant       GM_xmlhttpRequest
 // @grant       GM_notification
 // @connect     115.com
-// @connect     btso.pw
+// @connect     btsow.pw
 // ==/UserScript==
 
 var reg = /[0-9]{3,}_?-?[0-9]{1,}_?-?[0-9]{1,}/;
@@ -51,7 +51,7 @@ $(".entry-title a").each(function () {
                     obj.css("color", "blue");
 
                     GM_xmlhttpRequest({
-                        url: "https://btso.pw/search/" + key[0],
+                        url: "https://btsow.pw/search/" + key[0],
                         method: "GET",
                         onload: function (data) {
                             $(".info").append('<p class="header">BTSO:</p>');
