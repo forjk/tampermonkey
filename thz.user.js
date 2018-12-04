@@ -1,11 +1,11 @@
 // ==UserScript==
 // @name         thz
 // @namespace    https://github.com/forjk/tampermonkey
-// @version      0.1
+// @version      0.2
 // @description  try to take over the world!
 // @author       You
-// @match        http://thzbt.co/forum-181-*.html
-// @match        http://thzbt.co/thread-*
+// @match        http://thzthz.cc/forum-181-*.html
+// @match        http://thzthz.cc/thread-*
 // @require     http://apps.bdimg.com/libs/jquery/1.11.3/jquery.js
 // @grant       GM_xmlhttpRequest
 // @grant       GM_notification
