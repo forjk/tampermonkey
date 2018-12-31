@@ -20,6 +20,7 @@ $("#right").remove();
 $("#main-shift").css("margin-right", "0px").css("margin-left", "0px");
 
 $(".entry-title a").removeAttr("href").removeAttr("title");
+$(".entry-date a").attr("target", "_blank");
 
 $(".entry-content p > img").attr("width", "1024").attr("height", "");
 $(".entry-content a img").each(function () {
